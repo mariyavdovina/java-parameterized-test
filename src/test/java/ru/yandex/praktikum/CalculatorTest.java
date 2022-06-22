@@ -40,4 +40,21 @@ public class CalculatorTest {
 
         }
 
+/*
+    @Parameterized.Parameters
+    public static Object[] getSumData() {
+        return new Object[][] {
+                { 1, 9, 10},
+                { 1, 0, 1}, // передали тестовые данные
+        };
+    }
+*/
+/*
+    @Test
+    public void shouldBeSum() {
+        Calculator calculator = new Calculator();
+        int actual = calculator.sum(firstNumber, secondNumber); // обратились к полям тестового класса
+        assertEquals(expected, actual); // сравнили ожидаемый и фактический результат
+    }*/
+
 }
